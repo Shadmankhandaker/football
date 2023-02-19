@@ -1,0 +1,166 @@
+.stats-box {
+  background-color: var(--clr-dark-blue);
+  padding: 1.5rem 1rem;
+  position: relative;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.stats-box > h4 {
+  font-weight: 500;
+  font-size: var(--text-large);
+  margin-bottom: 1rem;
+}
+
+.stats-info {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.stats-info > * + * {
+  margin-left: 0.5rem;
+}
+
+.stats-info div {
+  display: grid;
+}
+.stats-info div > span:nth-of-type(1) {
+  font-size: var(--text-xl);
+  font-weight: 700;
+}
+.stats-info div > span:nth-of-type(2) {
+  font-size: 0.7rem;
+}
+
+.stats-guess_distribution {
+  display: grid;
+  font-size: var(--text-sm);
+  margin-bottom: 1rem;
+}
+
+.stats-guess_distribution > * + * {
+  margin-top: 0.2rem;
+}
+
+.stats-guess_distribution_block {
+  width: 100%;
+  display: flex;
+}
+.stats-guess_distribution_block span:nth-child(1) {
+  width: 20px;
+}
+.stats-guess_distribution_block span:nth-child(2) {
+  background-color: var(--clr-blue);
+  width: fit-content;
+  padding-left: 0.25rem;
+  padding-right: 0.2rem;
+  border-top-left-radius: 999px;
+  border-bottom-left-radius: 999px;
+}
+
+.stats-guess_distribution.block_all_full
+  .stats-guess_distribution_block
+  span:nth-child(2),
+.stats-guess_distribution_block.block_full span:nth-child(2) {
+  flex-grow: 1;
+}
+.stats-timer {
+  display: grid;
+  margin-bottom: 0.5rem;
+}
+.stats-timer > div span {
+  font-weight: 500;
+}
+
+.game-share {
+  margin-bottom: 1rem;
+}
+.game-share button {
+  width: 100%;
+}
+
+.game-share button img {
+  max-width: 350px;
+  width: 100%;
+}
+
+.game-share .isCopied,
+.help_frnd-isCopied {
+  font-size: 14px;
+  transition: all 0.25s linear;
+  opacity: 0;
+  color: rgb(216, 213, 213);
+  font-weight: 500;
+  text-align: center;
+}
+
+.help_frnd-isCopied {
+  font-size: 12px;
+}
+
+.game-share .isCopied.active,
+.help_frnd-isCopied.active {
+  opacity: 1;
+}
+
+.stats_next-btn {
+  width: 100%;
+  border-top: 1px solid grey;
+  padding-top: 0.5rem;
+}
+
+.stats_next-btn h2 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.stats_next-game {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stats_next-game > div {
+  display: flex;
+  align-items: center;
+}
+
+.stats_next-game img {
+  width: 2.5rem;
+}
+
+.stats_next-game > div > * + * {
+  margin-left: 0.4rem;
+}
+
+.stats_next-game svg {
+  fill: transparent;
+  width: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .stats-info div > span:nth-of-type(2) {
+    font-size: var(--text-x-sm);
+  }
+}
+@media screen and (min-width: 764px) {
+  .stats-box {
+    padding: 1.5rem;
+  }
+  .stats-info div > span:nth-of-type(1) {
+    font-size: var(--text-2xl);
+  }
+
+  .stats-info > * + * {
+    margin-left: 1rem;
+  }
+
+  .help_frnd-isCopied {
+    font-size: 14px;
+  }
+  .stats_next-game img {
+    width: 2.8rem;
+  }
+}

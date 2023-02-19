@@ -1,0 +1,451 @@
+.user-select-0 {
+  user-select: none;
+}
+
+nav {
+  width: 100%;
+  position: relative;
+}
+.bottom_border {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 3px;
+}
+nav .container {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.nav_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.nav_head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  /* flex: 1; */
+}
+.nav_head-others {
+  flex: 1;
+}
+.hamburger_menu-desktop {
+  display: none;
+}
+.hamburger_menu-mobile img,
+.hamburger_menu-desktop img {
+  width: 38px;
+  min-width: 32px;
+  filter: invert(1);
+}
+.site_title {
+  font-family: var(--font-thicker-black);
+  font-size: 1rem;
+  font-weight: 900;
+}
+.site_title > span {
+  white-space: pre;
+}
+.site_title .green-text {
+  color: var(--clr-light-green);
+}
+.league_title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.league_title .logo {
+  width: 36px;
+  vertical-align: middle;
+}
+.league_title .league_name {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.pl_name {
+  max-width: fit-content;
+  width: fit-content;
+}
+
+.nav_btn_wrapper {
+  width: fit-content;
+  flex-shrink: 0;
+  display: flex;
+}
+.nav_btn_wrapper > * + * {
+  margin-left: 1rem;
+}
+.nav_btn_wrapper-mobile {
+  width: fit-content;
+  display: flex;
+}
+.nav_btn_wrapper-mobile > * + * {
+  margin-left: 0.6rem;
+}
+.player_stats_btn img {
+  width: 24px;
+  filter: brightness(0) invert(1);
+  vertical-align: middle;
+}
+.help_btn {
+  border-radius: 50%;
+  display: none;
+  overflow: hidden;
+}
+.help_btn svg {
+  width: 24px;
+  fill: var(--clr-white);
+  vertical-align: middle;
+}
+
+.nav_items.home-layout {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.nav_items.home-layout a {
+  width: 100%;
+  text-align: center;
+}
+
+.nav_menu-mobile_wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background 200ms;
+}
+
+.nav_menu-mobile.show-nav {
+  transform: translateX(0%);
+}
+
+.nav_menu-mobile_wrapper.show-nav {
+  z-index: 11111000014;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav_menu-mobile {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-black);
+  padding: 1rem 1.2rem 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+  transform: translateX(-100%);
+  transition: transform 200ms;
+}
+
+.nav_menu-mobile-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_menu-mobile-close {
+  width: 25px;
+  /* position: absolute; */
+  /* top: 0.75rem;
+  left: 1.75rem; */
+  background-color: transparent;
+  padding: 0.25rem;
+}
+
+.nav_btn_wrapper-mobile .player_stats_btn img,
+.nav_btn_wrapper-mobile .help_btn svg {
+  width: 24px;
+  vertical-align: middle;
+}
+
+.nav_btn_wrapper-mobile .help_btn {
+  width: auto;
+  display: block !important;
+}
+
+.nav_btn_wrapper-mobile .player_stats_btn {
+  margin-right: 0;
+}
+
+.nav_menu-mobile-leagues {
+  padding: 1rem 0.4rem 0.4rem 1rem;
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.nav_menu-mobile-league-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.nav_menu-mobile-league-nested {
+  overflow: hidden;
+}
+.nav_menu-mobile-league-wrapper-childs {
+  margin-left: 1.5rem;
+  max-height: 0;
+  height: 0;
+  transition-property: all;
+  transition-timing-function: linear;
+}
+.nav_menu-mobile-league-wrapper-childs.show {
+  max-height: 100vh;
+  height: 100%;
+}
+
+.nav_menu-mobile-league {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.nav_menu-mobile-league img {
+  width: 60px;
+  margin-right: 0.6rem;
+}
+
+.nav_menu-mobile_football-img,
+.nav_menu-mobile_legendsBall {
+  width: 48px !important;
+  margin-right: 1.4rem !important;
+}
+
+.nav_menu-mobile-league-wrapper svg {
+  fill: none;
+  width: 20px;
+}
+
+.nav_menu-mobile-other_game {
+  margin-bottom: 12px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav_menu-mobile-footer {
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_footer-social_links.footer-social_links a {
+  display: block;
+  width: 36px;
+  height: 36px;
+}
+
+.nav_contact {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.nav_contact svg {
+  width: 40px;
+}
+
+@media screen and (min-width: 425px) {
+  .site_title {
+    font-size: var(--text-large);
+  }
+}
+
+@media screen and (min-width: 556px) {
+  .league_title .logo {
+    width: 52px;
+  }
+  .league_title .league_name {
+    font-size: 1rem;
+  }
+
+  .pl_name {
+    max-width: 100%;
+  }
+
+  .player_stats_btn img {
+    width: 28px;
+  }
+
+  .nav_menu-mobile-league img {
+    width: 60px;
+  }
+
+  .nav_menu-mobile_football-img,
+  .nav_menu-mobile_legendsBall {
+    width: 44px !important;
+    margin-right: 1.2rem !important;
+  }
+}
+
+@media screen and (min-width: 764px) {
+  nav .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hamburger_menu-desktop {
+    display: block;
+  }
+  /* .hamburger_menu-mobile {
+    display: none;
+  } */
+  .nav_btn_wrapper {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .nav_items {
+    display: grid;
+    grid-template-columns: 50% auto 1fr;
+  }
+
+  .help_btn {
+    display: block;
+  }
+
+  .nav_menu-mobile {
+    width: 350px;
+  }
+  .nav_btn_wrapper-mobile .player_stats_btn img,
+  .nav_btn_wrapper-mobile .help_btn svg {
+    width: 24px;
+  }
+
+  .nav_menu-mobile-league img {
+    width: 48px;
+  }
+
+  .nav_menu-mobile_football-img,
+  .nav_menu-mobile_legendsBall {
+    width: 40px !important;
+  }
+
+  .nav_menu-mobile-league-wrapper svg {
+    width: 20px;
+  }
+
+  .nav_footer-social_links.footer-social_links a {
+    display: block;
+    width: 34px;
+    height: 34px;
+  }
+
+  .nav_contact svg {
+    width: 38px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .league_title {
+    margin-left: -50%;
+  }
+}
+
+.color-germany {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.color-germany span:nth-of-type(1) {
+  background-color: black;
+}
+.color-germany span:nth-of-type(2) {
+  background-color: red;
+}
+.color-germany span:nth-of-type(3) {
+  background-color: orange;
+}
+.color-france {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.color-france span:nth-of-type(1) {
+  background-color: blue;
+}
+.color-france span:nth-of-type(2) {
+  background-color: white;
+}
+.color-france span:nth-of-type(3) {
+  background-color: red;
+}
+
+.color-italy {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.color-italy span:nth-of-type(1) {
+  background-color: green;
+}
+.color-italy span:nth-of-type(2) {
+  background-color: white;
+}
+.color-italy span:nth-of-type(3) {
+  background-color: red;
+}
+
+.color-spain {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.color-spain span:nth-of-type(1) {
+  background-color: red;
+}
+.color-spain span:nth-of-type(2) {
+  background-color: orange;
+}
+.color-spain span:nth-of-type(3) {
+  background-color: red;
+}
+
+.color-brazil {
+  display: grid;
+  grid-template-columns: 1.5fr 1.2fr 1.8fr 1.2fr 1.5fr;
+}
+
+.color-brazil span:nth-of-type(1),
+.color-brazil span:nth-of-type(5) {
+  background-color: green;
+}
+
+.color-brazil span:nth-of-type(2),
+.color-brazil span:nth-of-type(4) {
+  background-color: yellow;
+}
+
+.color-brazil span:nth-of-type(1) {
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+}
+.color-brazil span:nth-of-type(5) {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 5% 100%);
+}
+.color-brazil span:nth-of-type(2) {
+  margin-left: -1rem;
+}
+.color-brazil span:nth-of-type(4) {
+  margin-right: -1rem;
+}
+.color-brazil span:nth-of-type(3) {
+  background-color: blue;
+  position: relative;
+  clip-path: polygon(2% 0%, 98% 0%, 100% 100%, 0% 100%);
+  margin-left: -1rem;
+  margin-right: -1rem;
+}

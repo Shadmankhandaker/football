@@ -1,0 +1,225 @@
+:root {
+  /* colors */
+  --clr-white: white;
+  --clr-light-gray: rgb(192, 192, 192);
+  --clr-black: black;
+  --clr-gray: rgb(33, 33, 33);
+  --clr-purple: #400bd3;
+  --clr-violet: #4624a5;
+  --clr-light-red: red;
+  --clr-red: red;
+  --clr-rose: rgb(255, 71, 71);
+  --clr-blue: #2563eb;
+  --clr-green: #22c55e;
+  --clr-orange: #ffa200;
+
+  --clr-dark-blue: #1f2937;
+
+  --clr-light-blue: #dff6ff;
+  --clr-light-green: #7fda56;
+
+  --overlay-opacity: 0.81;
+
+  /* font sizes */
+  --text-x-sm: 0.8rem;
+  --text-sm: 0.9rem;
+  --text-medium: 1rem;
+  --text-large: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-header: 4rem;
+
+  /* fonts */
+  --font-poppins: "Poppins";
+  --font-thicker-black: Thicker Black;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-poppins), sans-serif;
+  background-image: url(./assets/bg-image/bg_mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .black-glass {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: var(--clr-black);
+  opacity: var(--overlay-opacity);
+  z-index: -1;
+}
+
+#app {
+  position: relative;
+  padding-bottom: 26rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: var(--font-poppins), sans-serif;
+}
+
+input {
+  font-family: var(--font-poppins), sans-serif;
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  outline: none;
+}
+
+svg {
+  fill: white;
+  width: 100%;
+}
+img {
+  max-width: 100%;
+}
+p,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-primary {
+  background-color: var(--clr-blue);
+}
+.bg-danger {
+  background-color: var(--clr-rose);
+}
+.bg-success {
+  background-color: var(--clr-green) !important;
+}
+
+#app {
+  min-height: 100vh;
+  position: relative;
+}
+.container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 764px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #app {
+    position: relative;
+    padding-bottom: 17rem;
+  }
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 10px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+.modal-wrapper.show {
+  opacity: 1;
+  pointer-events: visible;
+}
+.modal-close_btn {
+  background: none;
+  position: absolute;
+  width: 20px;
+  top: 0.75rem;
+  right: 0.75rem;
+  padding: 0.1rem;
+  border-radius: 50%;
+}
+.modal-box {
+  background-color: var(--clr-dark-blue);
+  padding: 1rem 0.5rem 1.5rem;
+  position: relative;
+  border-radius: 0.25rem;
+  text-align: center;
+  max-height: 100%;
+  overflow-y: auto;
+  position: relative;
+  z-index: 111111;
+}
+
+.modal-box > h4 {
+  font-weight: 500;
+  font-size: var(--text-large);
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-image: url(./assets/bg-image/bg_tablet.png);
+  }
+  .modal-box {
+    padding: 1rem 1rem 1.5rem;
+  }
+  .modal-wrapper {
+    padding: 2rem 20px;
+  }
+}
+@media screen and (min-width: 764px) {
+  body {
+    background-image: url(./assets/bg-image/bg_desktop.png);
+  }
+}
+@media screen and (min-width: 992px) {
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url(./assets/bg-image/bg_big_destop.png);
+  }
+}
+@media screen and (min-width: 1600px) {
+  body {
+    background-image: url(./assets/bg-image/bg_2k.png);
+  }
+}
+@media screen and (min-width: 2500px) {
+  body {
+    background-image: url(./assets/bg-image/bg.png);
+  }
+}
+
+/* custom scrollbar */
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(116, 116, 116);
+  outline: 1px solid rgb(91, 101, 112);
+  border-radius: 999px;
+}

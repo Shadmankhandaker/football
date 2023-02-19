@@ -1,0 +1,599 @@
+/* custom noty */
+.noty_theme__custom {
+  padding: 10px;
+  font-size: 14px;
+  background: #7fda56;
+}
+.survey-noty_body.noty_body {
+  text-align: center;
+  font-weight: 400;
+  border: none;
+  background: #7fda56;
+}
+
+.game-main_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3.5rem;
+}
+
+.game-main_box > * + * {
+  margin-top: 1rem;
+}
+
+.game-main_player-option {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Open-Sans;
+}
+
+.game-main_player-option > * + * {
+  margin-left: 4px;
+}
+
+.game-main_player-option img {
+  width: 28px;
+  object-fit: contain;
+}
+
+.game-main_player-hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8rem;
+  line-height: 1;
+  font-family: ui-sans-serif, system-ui;
+}
+
+.game-main_player,
+.game-main_club {
+  min-width: 200px;
+  max-width: 250px;
+  width: 25%;
+  /* width: clamp(200px, 25%, 450px); */
+  background-color: var(--clr-white);
+  position: relative;
+}
+.game-main_club {
+  min-width: 200px;
+  max-width: 450px;
+  width: 25%;
+  /* width: clamp(200px, 25%, 250px); */
+}
+
+.d-none {
+  display: none;
+}
+
+.game-time_machine {
+  --pos: 5rem;
+  --width: 70px;
+  position: absolute;
+  z-index: 2;
+  padding: 0.5rem 1rem;
+  filter: invert(1);
+  width: var(--width);
+}
+.game-time_machine.yesterday-btn {
+  left: calc(var(--pos) * -1);
+}
+.game-time_machine.today-btn {
+  right: calc(var(--pos) * -1);
+}
+
+.game-main_player_alert {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%) translateY(-50%);
+  width: max-content;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.game-main_player > .game-main_player_img,
+.game-main_club > .game-main_club_img {
+  padding-bottom: 75%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.game-main_club > .game-main_club_img {
+  position: relative;
+  background-size: 60%;
+}
+.shilloute_img {
+  filter: contrast(0%) brightness(0%);
+}
+
+.game-clue_items {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.game-clue_item {
+  width: 45px;
+  height: fit-content;
+}
+.game-clue_item-rating,
+.game-clue_item-appearance {
+  color: rgb(65, 63, 63);
+  font-weight: 600;
+  text-align: center;
+}
+.game-clue_item-appearance {
+  font-size: 1.4rem;
+}
+.game-clue_item-rating {
+  font-size: 1.8rem;
+}
+
+.game-clue_item svg {
+  width: 100%;
+  fill: var(--clr-black);
+}
+
+.game-clue button {
+  background-color: var(--clr-black);
+  padding: 0.2rem 1rem;
+  border-radius: 30px;
+  border: 1px solid var(--clr-white);
+  font-weight: 600;
+}
+
+.game-guess_input_box {
+  position: relative;
+  width: clamp(300px, 100%, 450px);
+}
+.game-guess_input_box input {
+  width: 100%;
+  background-color: var(--clr-white);
+  border-radius: 10px;
+  padding: 1rem 0.75rem;
+  font-size: var(--text-medium);
+  font-weight: 500;
+  color: var(--clr-gray);
+  margin-bottom: 5px;
+  transition: outline 200ms;
+}
+.game-guess_input_box input::placeholder {
+  color: var(--clr-gray);
+  opacity: 0.8;
+}
+.game-guess_input_box input:focus-visible {
+  outline: 4px solid var(--clr-purple);
+}
+
+.game-guess_autocomplete_players_wrapper {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: var(--clr-white);
+  color: var(--clr-gray);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: block;
+  max-height: 300px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  z-index: 1030000;
+}
+.game-guess_autocomplete_player {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  font-size: var(--text-medium);
+  font-weight: 500;
+  text-transform: capitalize;
+  width: 100%;
+  text-align: left;
+  transition: background-color 200ms;
+}
+
+.game-guess_autocomplete_player > img {
+  width: 32px;
+  margin-right: 8px;
+}
+
+.game-guess_autocomplete_active {
+  background-color: var(--clr-light-blue);
+}
+
+.game-guess_autocomplete_player:hover {
+  background-color: var(--clr-light-blue);
+}
+
+.game-guess_autocomplete_player:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* gane guess players component styling */
+.game-guess_players_wrapper {
+  /* --box-width: 110px;
+  --box-height: 45px; */
+  --box-width: 52px;
+  --box-height: 42px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game-guess_clubs_wrapper {
+  width: clamp(320px, 100%, 450px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game-guess_players_wrapper.brazil-league_wrapper {
+  --box-width: 60px;
+  --box-height: 46px;
+}
+
+.game-guess_players_heading {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 1.5rem;
+}
+.game-guess_players_heading .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--box-width);
+  height: var(--box-height);
+}
+.game-guess_players_heading .icon img,
+.game-guess_players_heading .icon svg {
+  width: 20px;
+}
+
+.game-guess_players_list {
+  display: grid;
+}
+.game-guess_players_list > * + * {
+  margin-top: 1.5rem;
+}
+.game-guess_player_name,
+.game-guess_club_name {
+  text-align: center;
+  font-weight: 500;
+  font-size: var(--text-large);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.game-guess_player_info {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+}
+
+.game-guess_club_name {
+  margin: 0;
+  font-size: var(--text-medium);
+}
+.game-guess_club_league img {
+  width: 40px;
+}
+
+.game-guess_club_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game-guess_club_info > div {
+  display: flex;
+  align-items: center;
+}
+
+.game-guess_club_info > div > svg {
+  width: 32px;
+  fill: none;
+  margin-right: 8px;
+}
+
+.game-guess_club_info .wrong {
+  color: red;
+}
+.game-guess_club_info .correct {
+  color: green;
+}
+
+.blurBox_container {
+  user-select: none;
+  pointer-events: none;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  top: 5%;
+  left: 12%;
+  right: 12%;
+  bottom: 5%;
+}
+
+.blurBox {
+  user-select: none;
+  pointer-events: none;
+  width: 14px;
+  height: 14px;
+  margin-left: -2px;
+  margin-top: -2px;
+  display: block;
+  backdrop-filter: blur(30px);
+}
+
+.game-guess_player_info > * + *,
+.game-guess_players_heading > * + * {
+  margin-left: 0.25rem;
+}
+
+.game-guess_players_heading.col-5,
+.game-guess_player_info.col-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.game-guess_players_heading.col-4,
+.game-guess_player_info.col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.game-guess_players_heading.col-3,
+.game-guess_player_info.col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.game-guess_player_box {
+  background-color: var(--clr-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--clr-black);
+  color: var(--clr-white);
+  font-weight: 500;
+  font-size: 0.9rem;
+  width: var(--box-width);
+  height: var(--box-height);
+}
+
+.game-guess_player_box > * + * {
+  margin-left: 0.5rem;
+}
+
+.game-guess_player_box svg {
+  width: 10px;
+}
+.game-guess_player_box img {
+  width: 25px;
+}
+
+.game-guess_players_heading .person-icon img {
+  width: 30px;
+}
+.game-guess_players_heading .cake-icon svg {
+  width: 20px;
+}
+.game-guess_players_heading .league-trophy img {
+  width: 25px;
+}
+.game-guess_players_heading .fifa-icon img {
+  width: 60px;
+}
+.game-guess_players_heading .shirt-icon img {
+  width: 30px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 80px;
+  font-size: 0.8rem;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tooltip .tooltiptext.tooltiptext-shirt {
+  width: 100px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media screen and (min-width: 400px) {
+  .game-guess_players_wrapper,
+  .game-guess_players_wrapper.brazil-league_wrapper {
+    --box-width: 55px;
+    --box-height: 45px;
+  }
+
+  .game-guess_player_box {
+    border-width: 2px;
+    font-size: var(--text-medium);
+  }
+
+  .game-guess_player_box svg {
+    width: 13px;
+  }
+
+  .game-guess_club_name {
+    font-size: var(--text-large);
+  }
+  .game-guess_club_league img {
+    width: 48px;
+  }
+
+  .game-guess_club_info > div > svg {
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .game-guess_players_wrapper,
+  .game-guess_players_wrapper.brazil-league_wrapper {
+    --box-width: 70px;
+  }
+
+  .tooltip .tooltiptext {
+    width: 120px;
+    font-size: 1rem;
+  }
+
+  .tooltip .tooltiptext.tooltiptext-shirt {
+    width: 120px;
+  }
+
+  .blurBox {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media screen and (min-width: 764px) {
+  .game-guess_input_box input {
+    font-size: var(--text-large);
+  }
+
+  .game-time_machine {
+    --pos: 6rem;
+    --width: 68px;
+  }
+  .game-clue_item {
+    width: 60px;
+  }
+  .game-clue_item-rating {
+    font-size: 2.5rem;
+  }
+  .game-clue_item-appearance {
+    font-size: 2rem;
+  }
+  .game-guess_players_wrapper,
+  .game-guess_players_wrapper.brazil-league_wrapper {
+    --box-width: 100px;
+    --box-height: 55px;
+  }
+  .game-guess_player_box img {
+    width: 40px;
+  }
+  .game-guess_player_name {
+    font-size: var(--text-large);
+    margin-bottom: 1rem;
+  }
+
+  .game-guess_players_heading .icon img,
+  .game-guess_players_heading .icon svg {
+    width: 25px;
+  }
+  .game-guess_players_heading .person-icon img {
+    width: 35px;
+  }
+  .game-guess_players_heading .cake-icon svg {
+    width: 25px;
+  }
+  .game-guess_players_heading .league-trophy img {
+    width: 30px;
+  }
+  .game-guess_players_heading .fifa-icon img {
+    width: 70px;
+  }
+  .game-guess_players_heading .shirt-icon img {
+    width: 40px;
+  }
+
+  .game-main_player-hidden {
+    font-size: 9rem;
+  }
+
+  .blurBox {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .game-main_player-hidden {
+    font-size: 12rem;
+  }
+
+  .blurBox {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.game-guess_loader {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.spinner-ring {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+.spinner-ring:after {
+  content: " ";
+  display: block;
+  width: 34px;
+  height: 34px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  border-color: #000 transparent #000 transparent;
+  animation: spinner-ring 1.2s linear infinite;
+}
+@keyframes spinner-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,100 @@
+.game-guide_content {
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+}
+.game-guide_content h4 {
+  margin-top: 0px;
+}
+.game-guide_content article {
+  max-width: 450px;
+  display: grid;
+  text-align: left;
+}
+.game-guide_content article > * + * {
+  margin-top: 1rem;
+}
+.game-guide_content p,
+.main-guid-para {
+  font-size: var(--text-sm);
+}
+
+.guide-guess_player {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  --box-width: auto;
+  --box-height: 38px;
+}
+
+.guide-guess_player .game-guess_player_box {
+  font-size: 0.8rem;
+  border-width: 1px;
+}
+
+.guide-guess_player .game-guess_player_box svg {
+  width: 8px;
+}
+
+.how_to_play.game-guess_club_name {
+  font-size: var(--text-sm);
+}
+
+.how_to_play.game-guess_club_info > div > svg {
+  width: 28px;
+}
+
+.how_to_play.game-guess_club_league img {
+  width: 36px;
+}
+
+/* .guide-guess_player .game-guess_player_box img {
+  width: 25px !important;
+} */
+
+@media screen and (min-width: 425px) {
+  .guide-guess_player {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    --box-width: auto;
+    --box-height: 40px;
+  }
+
+  .guide-guess_player .game-guess_player_box {
+    font-size: var(--text-sm);
+    border-width: 2px;
+  }
+
+  .guide-guess_player .game-guess_player_box svg {
+    width: 10px;
+  }
+
+  .how_to_play.game-guess_club_name {
+    font-size: var(--text-medium);
+  }
+
+  .how_to_play.game-guess_club_info > div > svg {
+    width: 32px;
+  }
+
+  .how_to_play.game-guess_club_league img {
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 556px) {
+  .guide-guess_player {
+    --box-width: auto;
+    --box-height: 43px;
+  }
+
+  .guide-guess_player .game-guess_player_box img {
+    width: 32px !important;
+  }
+
+  .guide-guess_player .game-guess_player_box {
+    font-size: var(--text-medium);
+  }
+
+  .guide-guess_player .game-guess_player_box svg {
+    width: 13px;
+  }
+}

@@ -1,0 +1,45 @@
+.livescore_widget_wrapper {
+  padding-bottom: 3rem;
+}
+
+.livescore_widget_wrapper h3 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-thicker-black);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  margin-bottom: 0;
+  position: relative;
+}
+.livescore_widget_wrapper h3 > * + * {
+  margin-left: 0.25rem;
+}
+
+.livescore_widget_wrapper h3 img {
+  width: 50px;
+}
+.livescore_widget_wrapper h3 .live-title {
+  color: var(--clr-red);
+  text-transform: uppercase;
+  text-shadow: var(--clr-light-red) 0px 0px 20px;
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+.livescore_box {
+  max-width: 800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 5px;
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .livescore_widget_wrapper h3,
+  .livescore_box {
+    display: flex;
+  }
+}

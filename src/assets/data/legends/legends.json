@@ -1,0 +1,1059 @@
+{
+  "id": 100,
+  "name": "Legends",
+  "logo": "/league-img/legends.png",
+  "fileName": "legends",
+  "gameStartDate": "2022/09/30",
+  "players": [
+    {
+      "id": "c8a615f3-1d2e-4bb2-93fd-109d3dd25924",
+      "name": "Wayne Rooney",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/261592.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/14.png",
+      "rating": 86,
+      "position": "CF",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "081e2e3c-63f2-4b33-bfdd-d97e96030b8f",
+      "name": "Patrick Kluivert",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/5680.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/34.png",
+      "rating": 86,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "bebad689-e4c7-49ec-8b15-aa748889e5ea",
+      "name": "Gianfranco Zola",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239110.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/27.png",
+      "rating": 85,
+      "position": "CF",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "1f3bb14b-a3ff-45e5-b72b-d978114f434b",
+      "name": "Raul Gonzalez Blanco",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/242940.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/45.png",
+      "rating": 86,
+      "position": "CF",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "9fbd4eae-663f-4f4f-996d-34f0f6f7b5cb",
+      "name": "Ryan Giggs",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239520.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/50.png",
+      "rating": 87,
+      "position": "LM",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "58127a00-be3d-484d-a340-f75477c2e76e",
+      "name": "Fernando Torres",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/256870.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/45.png",
+      "rating": 85,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "0b4e3819-a177-4c9b-9847-c496d2623481",
+      "name": "Michael Ballack",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/243783.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/21.png",
+      "rating": 86,
+      "position": "CM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "cfc759b8-e7d8-42cc-afe1-f46f22201932",
+      "name": "Ronaldinho",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/238706.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/54.png",
+      "rating": 89,
+      "position": "CAM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "1a45c768-8405-42f4-b901-aad011a3e25f",
+      "name": "Rio Ferdinand",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/237065.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/14.png",
+      "rating": 85,
+      "position": "CB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "93333bca-5a0e-4e79-a5bb-859cd10e2369",
+      "name": "Diego Maradona",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/237073.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/52.png",
+      "rating": 91,
+      "position": "CAM",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "db2e5c3f-29fe-4ab1-8a0d-b3f852f75306",
+      "name": "Javier Zanetti",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239516.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/52.png",
+      "rating": 87,
+      "position": "LB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "ea106f27-40ff-46b4-bbc8-00ef0ba4d6b0",
+      "name": "Carles Puyol",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/13038.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/45.png",
+      "rating": 86,
+      "position": "RB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "eb5e2685-0142-43f4-bf75-1820d1aed068",
+      "name": "Juan Sebastian Veron",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/237603.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/52.png",
+      "rating": 86,
+      "position": "CM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "66e2beed-580e-4ed0-b24f-dd78589635d5",
+      "name": "Eusebio",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/190049.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/38.png",
+      "rating": 89,
+      "position": "CF",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "b90b6fdc-a902-4a2a-b407-8f00eb0092b6",
+      "name": "Xavier Hernandez",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/255909.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/45.png",
+      "rating": 88,
+      "position": "CM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "0ab687e3-8b11-4037-8c83-816e3dcb55e4",
+      "name": "Ian Rush",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/247704.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/50.png",
+      "rating": 87,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "8d8ba9e3-da9f-4f5c-b190-6c3699863cb4",
+      "name": "Alan Shearer",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239599.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/14.png",
+      "rating": 87,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "a0d778aa-42b9-46d6-abed-08a52cecd696",
+      "name": "Edwin van der Sar",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239060.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/34.png",
+      "rating": 87,
+      "position": "GK",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "0314d22e-8209-40c4-be01-6123c02fb22b",
+      "name": "Michael Owen",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239083.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/14.png",
+      "rating": 86,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "3d3e0908-afb4-42e9-99d0-f93f46d151a6",
+      "name": "Luis Hernandez",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/238421.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/83.png",
+      "rating": 85,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "31aeb824-18e6-44b9-b1ab-e163f9dfedf3",
+      "name": "Marc Overmars",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/238442.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/34.png",
+      "rating": 86,
+      "position": "LW",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "3041976e-f529-4fe5-980c-d082ee9f3b52",
+      "name": "Paul Scholes",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239539.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/14.png",
+      "rating": 87,
+      "position": "CM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "017a6799-d41a-4d6f-93a7-72e61b44688f",
+      "name": "Kenny Dalglish",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/247700.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/42.png",
+      "rating": 87,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "aa3c2c81-fd2d-47aa-a951-2957207cf315",
+      "name": "Alessandro Del Piero",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/238383.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/27.png",
+      "rating": 87,
+      "position": "CF",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "f1aadde7-6668-4a7d-8891-95f5731a3eb2",
+      "name": "Michael Essien",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/247305.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/117.png",
+      "rating": 85,
+      "position": "CDM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "6573088b-c8e8-457f-9a82-7fc7691aefb8",
+      "name": "Ronald Koeman",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/247303.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/34.png",
+      "rating": 85,
+      "position": "CB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "802e3ecc-e31c-46de-aa07-d74e83d1f1f2",
+      "name": "Pele",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/190043.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/54.png",
+      "rating": 91,
+      "position": "CF",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "1256e5c5-7230-489e-9762-7cbbf7c43967",
+      "name": "Claude Makelele",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/242858.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/18.png",
+      "rating": 85,
+      "position": "RM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "dab7bdd6-3aaf-4036-a8d1-f042c2c0eea1",
+      "name": "Hugo Sanchez",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/247549.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/83.png",
+      "rating": 87,
+      "position": "ST",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "0d7e4ed8-ec40-412b-845f-a3671f02a2f5",
+      "name": "Thierry Henry",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/237062.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/18.png",
+      "rating": 87,
+      "position": "LW",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "4e692880-730b-439d-ab67-aabf7a2b253f",
+      "name": "Ronaldo",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/237063.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/54.png",
+      "rating": 90,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "74016adc-dadc-46e4-b428-7cd30a4913bb",
+      "name": "Roberto Carlos",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/237071.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/54.png",
+      "rating": 86,
+      "position": "LB",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "1f190baa-213e-4b64-93de-f62454dd5879",
+      "name": "Henrik Larsson",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239262.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/46.png",
+      "rating": 86,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "6190443d-fec1-4dd1-bf5c-624fd56e7b26",
+      "name": "Philipp Lahm",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/256153.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/21.png",
+      "rating": 87,
+      "position": "LB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "d2231557-4ead-4399-9cb8-d4f659b47982",
+      "name": "Frank Lampard",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/242929.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/14.png",
+      "rating": 86,
+      "position": "CM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "13172c3e-b84d-4abe-942a-ff02e615188a",
+      "name": "Pep Guardiola",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/243782.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/45.png",
+      "rating": 85,
+      "position": "CDM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "fb10c977-bd58-438b-9f40-68c12865a829",
+      "name": "Jay-Jay Okocha",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239108.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/133.png",
+      "rating": 85,
+      "position": "RM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "c57172fb-dfd4-4b23-aeff-f800d03c9305",
+      "name": "Clarence Seedorf",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/242928.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/34.png",
+      "rating": 85,
+      "position": "CM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "9bb95c69-ea3c-4de2-9300-67e4aaf22845",
+      "name": "Anderson Luis de Souza",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239027.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/38.png",
+      "rating": 85,
+      "position": "CAM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "bf0a2ce2-cc75-4f79-816b-41def1d1c5fc",
+      "name": "Petr Cech",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/256431.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/12.png",
+      "rating": 86,
+      "position": "GK",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "6219af9d-c48f-4817-8fce-437e33ce3fb4",
+      "name": "George Best",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/238437.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/35.png",
+      "rating": 88,
+      "position": "RW",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "2004145c-c8ec-41e6-9454-050f18392ac8",
+      "name": "David Trezeguet",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/242861.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/18.png",
+      "rating": 86,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "6d1ed9c7-87d7-4797-8f52-b20061cb32a4",
+      "name": "Christian Vieri",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239518.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/27.png",
+      "rating": 86,
+      "position": "ST",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "653bb200-b8b5-4580-835e-4426e8cea7d0",
+      "name": "Ashley Cole",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/255354.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/14.png",
+      "rating": 85,
+      "position": "LB",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "d0c5279d-787c-4336-af42-a19dff036c49",
+      "name": "Andrea Pirlo",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/247616.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/27.png",
+      "rating": 88,
+      "position": "CM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "c79d5d24-5aea-41b8-950d-71a06a14448f",
+      "name": "Steven Gerrard",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/242932.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/14.png",
+      "rating": 86,
+      "position": "CDM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "10023f7a-9d6a-4237-9e52-c38477b8e68a",
+      "name": "Hidetoshi Nakata",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/242626.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/163.png",
+      "rating": 85,
+      "position": "CAM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "27d524c5-1964-42ff-a8f1-a7c3489bdf37",
+      "name": "Jari Litmanen",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239115.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/17.png",
+      "rating": 85,
+      "position": "CF",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "b8650399-8272-4207-ab58-7fbcee55cfcd",
+      "name": "Roberto Baggio",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/243079.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/27.png",
+      "rating": 89,
+      "position": "CF",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "0dae0023-de77-4ce6-a184-561379e83850",
+      "name": "Luis Figo",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239081.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/38.png",
+      "rating": 88,
+      "position": "CAM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "8e9c24c3-a018-47b8-a71c-fadf9c6d17f2",
+      "name": "Patrick Vieira",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/238426.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/18.png",
+      "rating": 86,
+      "position": "CM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "909cc758-d3f8-4d56-be9b-2e4120c38fda",
+      "name": "Fernando Hierro Ruiz",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239067.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/45.png",
+      "rating": 86,
+      "position": "CB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "fe66b167-a11f-4736-9179-d5bc19207211",
+      "name": "John Barnes",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/247517.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/14.png",
+      "rating": 86,
+      "position": "CAM",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "cd6559b7-ae22-4ec5-b675-73cc2e62fd34",
+      "name": "Frank Rijkaard",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239422.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/34.png",
+      "rating": 86,
+      "position": "CDM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "2e4b3df8-e233-4f1c-b463-6fc34d60ba13",
+      "name": "Gary Lineker",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239524.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/14.png",
+      "rating": 87,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "86ff5c12-b82b-483b-9743-cb7a575bd3b6",
+      "name": "Eric Cantona",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/255476.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/18.png",
+      "rating": 88,
+      "position": "CF",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "f11c1c8a-6b05-4a45-a4c1-ebbf959801d3",
+      "name": "Robin van Persie",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/262110.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/34.png",
+      "rating": 87,
+      "position": "ST",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "74ab5d13-0ae4-4a6a-9f2d-4362af894cc5",
+      "name": "Riquelme",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/254570.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/52.png",
+      "rating": 87,
+      "position": "CAM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "b0b19466-ed6b-403c-abd8-a04f05ef5c64",
+      "name": "Gianluca Zambrotta",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/250889.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/27.png",
+      "rating": 86,
+      "position": "RWB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "50b29ccd-d38f-443a-99da-86739feaf578",
+      "name": "Lothar Matthaus",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/238436.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/21.png",
+      "rating": 88,
+      "position": "CB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "4ee97e9b-023f-477d-a716-3f3b365789e1",
+      "name": "Ruud van Nistelrooy",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239533.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/34.png",
+      "rating": 86,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "308734b6-d21d-41c6-904f-784841a703e9",
+      "name": "Peter Schmeichel",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/238429.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/13.png",
+      "rating": 86,
+      "position": "GK",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "e3a8a5b4-d486-427e-bd76-13a5b6121062",
+      "name": "Kaka",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/247074.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/54.png",
+      "rating": 87,
+      "position": "CAM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "6dfff4e0-a710-4a40-9cde-8bf7e9efa502",
+      "name": "Emmanuel Petit",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/238415.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/18.png",
+      "rating": 85,
+      "position": "LB",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "f7f9dc6b-d5bd-4cee-a657-67f1d1350ffa",
+      "name": "Laurent Blanc",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/222481.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/18.png",
+      "rating": 85,
+      "position": "CAM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "6510d1c2-7003-4b6d-b75f-148e4a6f1891",
+      "name": "Gheorghe Hagi",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239056.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/39.png",
+      "rating": 85,
+      "position": "CAM",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "206613c1-2224-43e3-89a3-3341a3f73ffb",
+      "name": "Fabio Cannavaro",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239064.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/27.png",
+      "rating": 87,
+      "position": "CB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "06e1d525-3059-4959-a57c-d76346ed5e99",
+      "name": "Johan Cruyff",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/242521.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/34.png",
+      "rating": 89,
+      "position": "CF",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "f4f3176d-10f5-4ae1-9a3a-36e42f29a55d",
+      "name": "Bobby Moore",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239530.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/14.png",
+      "rating": 87,
+      "position": "CB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "e2d70d52-ebb0-4a5b-b054-ce598372a427",
+      "name": "Hristo Stoichkov",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239541.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/9.png",
+      "rating": 87,
+      "position": "ST",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "1d8d1b9c-85a5-46cb-96d4-2e310b1220d2",
+      "name": "Bastian Schweinsteiger",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/256338.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/21.png",
+      "rating": 87,
+      "position": "LM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "3466e72d-617c-409c-969e-27a70e2bab17",
+      "name": "Dennis Bergkamp",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/238387.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/34.png",
+      "rating": 87,
+      "position": "CF",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "c91b32cf-f427-4f03-9cd6-ffe466bdd6d8",
+      "name": "Carlos Alberto Torres",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/247327.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/54.png",
+      "rating": 87,
+      "position": "CB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "348d6ccf-291c-4bb9-9bf1-0bb6559f616b",
+      "name": "Marco van Basten",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239054.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/34.png",
+      "rating": 89,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "00cc840a-6887-4562-9d27-34b2f8e9e8a8",
+      "name": "Sol Campbell",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/388.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/14.png",
+      "rating": 85,
+      "position": "CB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "65e39c26-5bf0-40a0-aee8-9d1dc90d9c48",
+      "name": "Rui Manuel Cesar Costa",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/238432.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/38.png",
+      "rating": 85,
+      "position": "CAM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "df0d4b87-edbd-4ab1-aa95-4a7287940620",
+      "name": "Franco Baresi",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239527.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/27.png",
+      "rating": 88,
+      "position": "CB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "a9497d22-37eb-47f3-81fa-269fddf431b5",
+      "name": "Robert Pires",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239070.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/18.png",
+      "rating": 85,
+      "position": "CAM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "fe1db445-adc3-449b-831e-820d40bd828b",
+      "name": "Marcos Cafu",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/260816.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/54.png",
+      "rating": 88,
+      "position": "RB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "d653687c-12a5-4926-a53b-ea2281056b93",
+      "name": "Ruud Gullit",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/238433.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/34.png",
+      "rating": 86,
+      "position": "CM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "42ba88df-1f92-4629-9e29-db46f40e7e49",
+      "name": "Garrincha",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/247552.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/54.png",
+      "rating": 90,
+      "position": "RW",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "b6145723-9311-4be7-ab9e-c5689a8d10d9",
+      "name": "Pavel Nedved",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239535.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/12.png",
+      "rating": 86,
+      "position": "LM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "dbbe061f-d02b-4ba3-a974-86b6fe875e23",
+      "name": "Iker Casillas",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/261394.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/45.png",
+      "rating": 87,
+      "position": "GK",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "5c6f6232-1c41-4d9a-a959-63809a40d1ad",
+      "name": "Roy Keane",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239601.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/25.png",
+      "rating": 86,
+      "position": "CM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "d11315a5-b9ca-4ad2-bb35-3771812887ff",
+      "name": "Paolo Maldini",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/1109.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/27.png",
+      "rating": 88,
+      "position": "LB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "f43beede-4743-476e-8143-d6e76af4a155",
+      "name": "Marcel Desailly",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239525.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/18.png",
+      "rating": 87,
+      "position": "CB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "990ec8eb-b10f-49b9-942a-df1006caf403",
+      "name": "Emilio Butragueno",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239603.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/45.png",
+      "rating": 87,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "20d5dc3e-30d1-447d-b663-657a06037c03",
+      "name": "Didier Drogba",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/247693.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/108.png",
+      "rating": 87,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "a12f2816-d018-42c7-9d80-7f2c07ee1fb6",
+      "name": "Ian Wright",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/248154.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/14.png",
+      "rating": 85,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "eeb6b83d-8441-4dfa-ba7d-17e2c5fe680a",
+      "name": "Miroslav Klose",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/11141.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/21.png",
+      "rating": 87,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "09f9f877-fc4f-426e-85ce-f794f72f0ef7",
+      "name": "Nemanja Vidic",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/255757.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/51.png",
+      "rating": 85,
+      "position": "CB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "ca733e0b-e901-447b-a2ec-f8e1a42531c5",
+      "name": "Rivaldo",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/242951.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/54.png",
+      "rating": 87,
+      "position": "CAM",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "0e020cd6-da86-4481-8750-5f823a2b0d9a",
+      "name": "Alessandro Nesta",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239063.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/27.png",
+      "rating": 88,
+      "position": "CB",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "2de48e35-5c48-4700-b7bf-75f6a1e0bf66",
+      "name": "Hernan Crespo",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/238419.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/52.png",
+      "rating": 85,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "3b57b882-8414-4ae4-8328-d92c0266576a",
+      "name": "Zinedine Zidane",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/248449.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/18.png",
+      "rating": 91,
+      "position": "CM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "e81dee01-7ebd-4d18-bac9-2c3d466b04bb",
+      "name": "Samuel Eto'o",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/255357.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/103.png",
+      "rating": 87,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "424323b6-9c5d-4aa3-9321-de2257c6adea",
+      "name": "Michael Laudrup",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239058.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/13.png",
+      "rating": 85,
+      "position": "CF",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "ecb2ad47-693e-475d-80b6-cdf3315b13e3",
+      "name": "David Beckham",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/258779.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/14.png",
+      "rating": 87,
+      "position": "CM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "41c8381e-a86c-4f85-96f6-c31f81d836c2",
+      "name": "Andriy Shevchenko",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239419.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/49.png",
+      "rating": 86,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "03181e99-8e4a-4800-890c-e575986eb240",
+      "name": "Davor Suker",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/257416.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/10.png",
+      "rating": 85,
+      "position": "ST",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "f573933c-efbb-4b65-953a-31b4fb6948dc",
+      "name": "Socrates",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/242517.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/54.png",
+      "rating": 87,
+      "position": "CAM",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "388d2832-aca5-42f4-b027-20b502d980a7",
+      "name": "Lev Yashin",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/238381.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/40.png",
+      "rating": 89,
+      "position": "GK",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "94d3d0d6-8be1-467d-b24d-fb098fa4d118",
+      "name": "Ferenc Puskas",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/256013.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/23.png",
+      "rating": 89,
+      "position": "CF",
+      "foot": "Left",
+      "league": 100
+    },
+    {
+      "id": "748676db-d8cc-4b63-8da4-c1d1109e5b47",
+      "name": "Filippo Inzaghi",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/239072.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/27.png",
+      "rating": 85,
+      "position": "ST",
+      "foot": "Right",
+      "league": 100
+    },
+    {
+      "id": "ffa0230b-0093-4355-bc4a-894faed4eb50",
+      "name": "Gennaro Gattuso",
+      "photo_url": "https://www.fifplay.com/img/fifa/22/players/243031.png",
+      "nation": "https://www.fifplay.com/img/fifa/22/nations/27.png",
+      "rating": 85,
+      "position": "CM",
+      "foot": "Right",
+      "league": 100
+    }
+  ]
+}

@@ -1,0 +1,694 @@
+{
+  "id": "gtc009",
+  "name": "Guess The Club Badge",
+  "logo": "/league-img/guesstheclub.png",
+  "gameStartDate": "2022/10/01",
+  "clubs": [
+    {
+      "id": 550,
+      "league": 6,
+      "club_key": "rom",
+      "club_name": "AS Roma",
+      "clubLogo": "rom.png"
+    },
+    {
+      "id": 993,
+      "league": 4,
+      "club_key": "osa",
+      "club_name": "CA Osasuna",
+      "clubLogo": "osa.png"
+    },
+    {
+      "id": 1116,
+      "league": 1,
+      "club_key": "bha",
+      "club_name": "Brighton & Hove Albion FC",
+      "clubLogo": "bha.png"
+    },
+    {
+      "id": 663,
+      "league": 6,
+      "club_key": "fio",
+      "club_name": "ACF Fiorentina",
+      "clubLogo": "fio.png"
+    },
+    {
+      "id": 617,
+      "league": 4,
+      "club_key": "get",
+      "club_name": "Getafe CF",
+      "clubLogo": "get.png"
+    },
+    {
+      "id": 1462,
+      "league": 1,
+      "club_key": "ful",
+      "club_name": "Fulham FC",
+      "clubLogo": "ful.png"
+    },
+    {
+      "id": 675,
+      "league": 6,
+      "club_key": "udi",
+      "club_name": "Udinese Calcio",
+      "clubLogo": "udi.png"
+    },
+    {
+      "id": 509,
+      "league": 1,
+      "club_key": "ars",
+      "club_name": "Arsenal FC",
+      "clubLogo": "ars.png"
+    },
+    {
+      "id": 2368,
+      "league": 13,
+      "club_key": "rcl",
+      "club_name": "Racing Club de Lens",
+      "clubLogo": "rcl.png"
+    },
+    {
+      "id": 614,
+      "league": 4,
+      "club_key": "val",
+      "club_name": "Valencia CF",
+      "clubLogo": "val.png"
+    },
+    {
+      "id": 1517,
+      "league": 6,
+      "club_key": "mon",
+      "club_name": "Monza",
+      "clubLogo": "mon.png"
+    },
+    {
+      "id": 2005,
+      "league": 1,
+      "club_key": "bre",
+      "club_name": "Brentford FC",
+      "clubLogo": "bre.png"
+    },
+    {
+      "id": 512,
+      "league": 1,
+      "club_key": "cry",
+      "club_name": "Crystal Palace FC",
+      "clubLogo": "cry.png"
+    },
+    {
+      "id": 626,
+      "league": 4,
+      "club_key": "rso",
+      "club_name": "Real Sociedad de Fútbol",
+      "clubLogo": "rso.png"
+    },
+    {
+      "id": 517,
+      "league": 1,
+      "club_key": "mnu",
+      "club_name": "Manchester United FC",
+      "clubLogo": "mnu.png"
+    },
+    {
+      "id": 549,
+      "league": 13,
+      "club_key": "asm",
+      "club_name": "AS Monaco FC",
+      "clubLogo": "asm.png"
+    },
+    {
+      "id": 897,
+      "league": 13,
+      "club_key": "nan",
+      "club_name": "FC Nantes",
+      "clubLogo": "nan.png"
+    },
+    {
+      "id": 2148,
+      "league": 1,
+      "club_key": "lee",
+      "club_name": "Leeds United FC",
+      "clubLogo": "lee.png"
+    },
+    {
+      "id": 822,
+      "league": 13,
+      "club_key": "olm",
+      "club_name": "Olympique de Marseille",
+      "clubLogo": "olm.png"
+    },
+    {
+      "id": 540,
+      "league": 2,
+      "club_key": "ber",
+      "club_name": "Hertha BSC",
+      "clubLogo": "ber.png"
+    },
+    {
+      "id": 611,
+      "league": 6,
+      "club_key": "laz",
+      "club_name": "SS Lazio",
+      "clubLogo": "laz.png"
+    },
+    {
+      "id": 664,
+      "league": 6,
+      "club_key": "ata",
+      "club_name": "Atalanta BC",
+      "clubLogo": "ata.png"
+    },
+    {
+      "id": 1541,
+      "league": 2,
+      "club_key": "unb",
+      "club_name": "1. FC Union Berlin",
+      "clubLogo": "unb.png"
+    },
+    {
+      "id": 901,
+      "league": 13,
+      "club_key": "ogc",
+      "club_name": "OGC Nice",
+      "clubLogo": "ogc.png"
+    },
+    {
+      "id": 514,
+      "league": 1,
+      "club_key": "lei",
+      "club_name": "Leicester City FC",
+      "clubLogo": "lei.png"
+    },
+    {
+      "id": 524,
+      "league": 1,
+      "club_key": "tot",
+      "club_name": "Tottenham Hotspur FC",
+      "clubLogo": "tot.png"
+    },
+    {
+      "id": 534,
+      "league": 2,
+      "club_key": "aug",
+      "club_name": "FC Augsburg",
+      "clubLogo": "aug.png"
+    },
+    {
+      "id": 2449,
+      "league": 4,
+      "club_key": "cad",
+      "club_name": "Cádiz CF",
+      "clubLogo": "cad.png"
+    },
+    {
+      "id": 2195,
+      "league": 1,
+      "club_key": "not",
+      "club_name": "Nottingham Forest FC",
+      "clubLogo": "not.png"
+    },
+    {
+      "id": 515,
+      "league": 1,
+      "club_key": "liv",
+      "club_name": "Liverpool FC",
+      "clubLogo": "liv.png"
+    },
+    {
+      "id": 533,
+      "league": 2,
+      "club_key": "fra",
+      "club_name": "Eintracht Frankfurt",
+      "clubLogo": "fra.png"
+    },
+    {
+      "id": 2584,
+      "league": 13,
+      "club_key": "aja",
+      "club_name": "Auxerre",
+      "clubLogo": "aja.png"
+    },
+    {
+      "id": 965,
+      "league": 2,
+      "club_key": "scf",
+      "club_name": "SC Freiburg",
+      "clubLogo": "scf.png"
+    },
+    {
+      "id": 1463,
+      "league": 1,
+      "club_key": "wol",
+      "club_name": "Wolverhampton Wanderers FC",
+      "clubLogo": "wol.png"
+    },
+    {
+      "id": 554,
+      "league": 4,
+      "club_key": "atm",
+      "club_name": "Club Atlético de Madrid",
+      "clubLogo": "atm.png"
+    },
+    {
+      "id": 630,
+      "league": 4,
+      "club_key": "vil",
+      "club_name": "Villarreal CF",
+      "clubLogo": "vil.png"
+    },
+    {
+      "id": 672,
+      "league": 6,
+      "club_key": "nap",
+      "club_name": "SSC Napoli",
+      "clubLogo": "nap.png"
+    },
+    {
+      "id": 665,
+      "league": 6,
+      "club_key": "bol",
+      "club_name": "Bologna FC 1909",
+      "clubLogo": "bol.png"
+    },
+    {
+      "id": 621,
+      "league": 4,
+      "club_key": "ray",
+      "club_name": "Rayo Vallecano de Madrid",
+      "clubLogo": "ray.png"
+    },
+    {
+      "id": 606,
+      "league": 4,
+      "club_key": "sev",
+      "club_name": "Sevilla FC",
+      "clubLogo": "sev.png"
+    },
+    {
+      "id": 900,
+      "league": 13,
+      "club_key": "mon",
+      "club_name": "Montpellier HSC",
+      "clubLogo": "mon.png"
+    },
+    {
+      "id": 673,
+      "league": 6,
+      "club_key": "tor",
+      "club_name": "Torino FC",
+      "clubLogo": "tor.png"
+    },
+    {
+      "id": 537,
+      "league": 2,
+      "club_key": "s04",
+      "club_name": "Schalke",
+      "clubLogo": "s04.png"
+    },
+    {
+      "id": 531,
+      "league": 2,
+      "club_key": "bmg",
+      "club_name": "Borussia Mönchengladbach",
+      "clubLogo": "bmg.png"
+    },
+    {
+      "id": 529,
+      "league": 2,
+      "club_key": "koe",
+      "club_name": "1. FC Köln",
+      "clubLogo": "koe.png"
+    },
+    {
+      "id": 677,
+      "league": 6,
+      "club_key": "sas",
+      "club_name": "US Sassuolo Calcio",
+      "clubLogo": "sas.png"
+    },
+    {
+      "id": 622,
+      "league": 4,
+      "club_key": "cel",
+      "club_name": "RC Celta de Vigo",
+      "clubLogo": "cel.png"
+    },
+    {
+      "id": 510,
+      "league": 1,
+      "club_key": "ast",
+      "club_name": "Aston Villa FC",
+      "clubLogo": "ast.png"
+    },
+    {
+      "id": 588,
+      "league": 6,
+      "club_key": "juv",
+      "club_name": "Juventus FC",
+      "clubLogo": "juv.png"
+    },
+    {
+      "id": 625,
+      "league": 4,
+      "club_key": "bet",
+      "club_name": "Real Betis Balompié",
+      "clubLogo": "bet.png"
+    },
+    {
+      "id": 1440,
+      "league": 6,
+      "club_key": "spe",
+      "club_name": "Spezia Calcio",
+      "clubLogo": "spe.png"
+    },
+    {
+      "id": 667,
+      "league": 6,
+      "club_key": "emp",
+      "club_name": "Empoli FC",
+      "clubLogo": "emp.png"
+    },
+    {
+      "id": 513,
+      "league": 1,
+      "club_key": "eve",
+      "club_name": "Everton FC",
+      "clubLogo": "eve.png"
+    },
+    {
+      "id": 893,
+      "league": 13,
+      "club_key": "ang",
+      "club_name": "Angers SCO",
+      "clubLogo": "ang.png"
+    },
+    {
+      "id": 964,
+      "league": 2,
+      "club_key": "rbl",
+      "club_name": "RB Leipzig",
+      "clubLogo": "rbl.png"
+    },
+    {
+      "id": 624,
+      "league": 4,
+      "club_key": "esp",
+      "club_name": "RCD Espanyol de Barcelona",
+      "clubLogo": "esp.png"
+    },
+    {
+      "id": 1505,
+      "league": 4,
+      "club_key": "vld",
+      "club_name": "Valladolid",
+      "clubLogo": "vld.png"
+    },
+    {
+      "id": 597,
+      "league": 13,
+      "club_key": "lyo",
+      "club_name": "Olympique Lyonnais",
+      "clubLogo": "lyo.png"
+    },
+    {
+      "id": 518,
+      "league": 1,
+      "club_key": "new",
+      "club_name": "Newcastle United FC",
+      "clubLogo": "new.png"
+    },
+    {
+      "id": 1450,
+      "league": 6,
+      "club_key": "cre",
+      "club_name": "Cremonese",
+      "clubLogo": "cre.png"
+    },
+    {
+      "id": 511,
+      "league": 1,
+      "club_key": "cfc",
+      "club_name": "Chelsea FC",
+      "clubLogo": "cfc.png"
+    },
+    {
+      "id": 2583,
+      "league": 13,
+      "club_key": "aca",
+      "club_name": "AC Ajaccio",
+      "clubLogo": "aca.png"
+    },
+    {
+      "id": 528,
+      "league": 2,
+      "club_key": "mai",
+      "club_name": "1. FSV Mainz 05",
+      "clubLogo": "mai.png"
+    },
+    {
+      "id": 600,
+      "league": 13,
+      "club_key": "psg",
+      "club_name": "Paris Saint-Germain FC",
+      "clubLogo": "psg.png"
+    },
+    {
+      "id": 1119,
+      "league": 13,
+      "club_key": "str",
+      "club_name": "RC Strasbourg Alsace",
+      "clubLogo": "str.png"
+    },
+    {
+      "id": 535,
+      "league": 2,
+      "club_key": "bay",
+      "club_name": "FC Bayern München",
+      "clubLogo": "bay.png"
+    },
+    {
+      "id": 2526,
+      "league": 13,
+      "club_key": "clf",
+      "club_name": "Clermont Foot 63",
+      "clubLogo": "clf.png"
+    },
+    {
+      "id": 2523,
+      "league": 2,
+      "club_key": "boc",
+      "club_name": "VfL Bochum 1848",
+      "clubLogo": "boc.png"
+    },
+    {
+      "id": 542,
+      "league": 2,
+      "club_key": "bre",
+      "club_name": "Bremen",
+      "clubLogo": "bre.png"
+    },
+    {
+      "id": 662,
+      "league": 6,
+      "club_key": "mil",
+      "club_name": "AC Milan",
+      "clubLogo": "mil.png"
+    },
+    {
+      "id": 508,
+      "league": 1,
+      "club_key": "bor",
+      "club_name": "AFC Bournemouth",
+      "clubLogo": "bor.png"
+    },
+    {
+      "id": 545,
+      "league": 2,
+      "club_key": "wob",
+      "club_name": "VfL Wolfsburg",
+      "clubLogo": "wob.png"
+    },
+    {
+      "id": 544,
+      "league": 2,
+      "club_key": "stu",
+      "club_name": "VfB Stuttgart",
+      "clubLogo": "stu.png"
+    },
+    {
+      "id": 527,
+      "league": 1,
+      "club_key": "whu",
+      "club_name": "West Ham United FC",
+      "clubLogo": "whu.png"
+    },
+    {
+      "id": 905,
+      "league": 13,
+      "club_key": "ren",
+      "club_name": "Stade Rennais FC 1901",
+      "clubLogo": "ren.png"
+    },
+    {
+      "id": 1453,
+      "league": 6,
+      "club_key": "sal",
+      "club_name": "US Salernitana 1919",
+      "clubLogo": "sal.png"
+    },
+    {
+      "id": 906,
+      "league": 13,
+      "club_key": "tou",
+      "club_name": "Toulouse",
+      "clubLogo": "tou.png"
+    },
+    {
+      "id": 516,
+      "league": 1,
+      "club_key": "mnc",
+      "club_name": "Manchester City FC",
+      "clubLogo": "mnc.png"
+    },
+    {
+      "id": 668,
+      "league": 6,
+      "club_key": "int",
+      "club_name": "FC Internazionale Milano",
+      "clubLogo": "int.png"
+    },
+    {
+      "id": 1451,
+      "league": 6,
+      "club_key": "lec",
+      "club_name": "Lecce",
+      "clubLogo": "lec.png"
+    },
+    {
+      "id": 904,
+      "league": 13,
+      "club_key": "rei",
+      "club_name": "Stade de Reims",
+      "clubLogo": "rei.png"
+    },
+    {
+      "id": 532,
+      "league": 2,
+      "club_key": "bvb",
+      "club_name": "BV Borussia 09 Dortmund",
+      "clubLogo": "bvb.png"
+    },
+    {
+      "id": 896,
+      "league": 13,
+      "club_key": "lor",
+      "club_name": "FC Lorient",
+      "clubLogo": "lor.png"
+    },
+    {
+      "id": 530,
+      "league": 2,
+      "club_key": "lev",
+      "club_name": "Bayer 04 Leverkusen",
+      "clubLogo": "lev.png"
+    },
+    {
+      "id": 895,
+      "league": 13,
+      "club_key": "tro",
+      "club_name": "ES Troyes AC",
+      "clubLogo": "tro.png"
+    },
+    {
+      "id": 1558,
+      "league": 13,
+      "club_key": "sbr",
+      "club_name": "Stade Brestois 29",
+      "clubLogo": "sbr.png"
+    },
+    {
+      "id": 671,
+      "league": 6,
+      "club_key": "ver",
+      "club_name": "Hellas Verona FC",
+      "clubLogo": "ver.png"
+    },
+    {
+      "id": 520,
+      "league": 1,
+      "club_key": "sot",
+      "club_name": "Southampton FC",
+      "clubLogo": "sot.png"
+    },
+    {
+      "id": 1571,
+      "league": 4,
+      "club_key": "mal",
+      "club_name": "RCD Mallorca",
+      "clubLogo": "mal.png"
+    },
+    {
+      "id": 605,
+      "league": 4,
+      "club_key": "rma",
+      "club_name": "Real Madrid CF",
+      "clubLogo": "rma.png"
+    },
+    {
+      "id": 559,
+      "league": 4,
+      "club_key": "fcb",
+      "club_name": "FC Barcelona",
+      "clubLogo": "fcb.png"
+    },
+    {
+      "id": 674,
+      "league": 6,
+      "club_key": "sam",
+      "club_name": "UC Sampdoria",
+      "clubLogo": "sam.png"
+    },
+    {
+      "id": 616,
+      "league": 4,
+      "club_key": "ath",
+      "club_name": "Athletic Club",
+      "clubLogo": "ath.png"
+    },
+    {
+      "id": 2608,
+      "league": 4,
+      "club_key": "alm",
+      "club_name": "Almería",
+      "clubLogo": "alm.png"
+    },
+    {
+      "id": 899,
+      "league": 13,
+      "club_key": "lil",
+      "club_name": "Lille OSC",
+      "clubLogo": "lil.png"
+    },
+    {
+      "id": 2450,
+      "league": 4,
+      "club_key": "elc",
+      "club_name": "Elche CF",
+      "clubLogo": "elc.png"
+    },
+    {
+      "id": 1169,
+      "league": 4,
+      "club_key": "gir",
+      "club_name": "Girona FC",
+      "clubLogo": "gir.png"
+    },
+    {
+      "id": 543,
+      "league": 2,
+      "club_key": "hof",
+      "club_name": "TSG 1899 Hoffenheim",
+      "clubLogo": "hof.png"
+    }
+  ]
+}

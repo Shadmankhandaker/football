@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <meta name="title" content="GuessWho Football" />
+    <meta name="propeller" content="6a61bed247c98ed183e2e4cd31c23df7" />
+
+    <meta property="og:url" content="https://www.guesswhofootball.com/" />
+    <meta property="og:title" content="GuessWho Football" />
+    <meta property="og:site_name" content="GuessWho Football" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image:url"
+      content="https://www.guesswhofootball.com/icons/favicon.png"
+    />
+    <meta
+      property="og:image"
+      content="https://www.guesswhofootball.com/icons/favicon.png"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://www.guesswhofootball.com/icons/favicon.png"
+    />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:image:type" content="image/png" />
+    <meta
+      property="og:description"
+      content="Your daily footballer guessing game"
+    />
+
+    <meta property="twitter:card" content="summary_larget_image" />
+    <meta
+      property="twitter:image"
+      content="https://www.guesswhofootball.com/icons/favicon.png"
+    />
+    <meta property="twitter:url" content="https://www.guesswhofootball.com/" />
+    <meta property="twitter:title" content="GuessWho Football" />
+    <meta
+      property="twitter:description"
+      content="Your daily footballer guessing game"
+    />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/icons/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      href="%PUBLIC_URL%/icons/apple-touch-icon.png"
+    />
+    <title>GuessWho? Football</title>
+    <link rel="stylesheet" href="%PUBLIC_URL%/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-EX9S9HR9YY"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-EX9S9HR9YY");
+    </script>
+
+    <script>
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://www.scorebat.com/embed/embed.js?v=arrv";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "scorebat-jssdk");
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css"
+      integrity="sha512-0p3K0H3S6Q4bEWZ/WmC94Tgit2ular2/n0ESdfEX8l172YyQj8re1Wu9s/HT9T/T2osUw5Gx/6pAZNk3UKbESw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"
+      integrity="sha512-lOrm9FgT1LKOJRUXF3tp6QaMorJftUjowOWiDcG5GFZ/q7ukof19V0HKx/GWzXCdt9zYju3/KhBNdCLzK8b90Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+
+  <body>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <div id="root"></div>
+    <div id="modal-portal"></div>
+    <div id="temp-loader" class="loader-wrapper">
+      <div class="loader-spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- Include jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script>
+      var pollfishConfig = {
+        api_key: "eb6bfada-16c1-41cf-a00f-6fc2f3c03ffe",
+        debug: true,
+        offerwall: false,
+        // request_uuid: "string_uuid",
+        ready: customReady, // Set the ready function to prevent autostarting the survey panel
+        closeCallback: customSurveyClosed,
+        userNotEligibleCallback: customUserNotEligible,
+        closeAndNoShowCallback: customCloseAndNoShow,
+        surveyCompletedCallback: customSurveyFinished,
+        surveyAvailable: customSurveyAvailable,
+        surveyNotAvailable: customSurveyNotAvailable,
+      };
+
+      function customReady() {}
+
+      function customSurveyClosed() {
+        console.log("user closed the survey");
+        let shouldRestart = JSON.parse(clueHandler.dataset.restart);
+        if (shouldRestart) {
+          Pollfish.restart(pollfishConfig);
+          document
+            .getElementById("clueHandler")
+            .setAttribute("data-restart", "false");
+        }
+      }
+
+      function customUserNotEligible() {
+        console.log("user is not eligible");
+        document
+          .getElementById("clueHandler")
+          .setAttribute("data-restart", "true");
+      }
+
+      function customSurveyFinished(data) {
+        console.log(`
+        pollfish survey has finished with revenue: ${data.survey_price},
+        survey_loi: ${data.survey_loi},
+        survey_ir: ${data.survey_ir},
+        survey_class: ${data.survey_class},
+        reward_name: ${data.reward_name},
+        reward_value: ${data.reward_value},
+      `);
+        Pollfish.hide();
+        window.showclue();
+      }
+
+      function customCloseAndNoShow() {
+        console.log("close and hide the pollfish panel");
+        let shouldRestart = JSON.parse(clueHandler.dataset.restart);
+        if (shouldRestart) {
+          Pollfish.restart(pollfishConfig);
+          document
+            .getElementById("clueHandler")
+            .setAttribute("data-restart", "false");
+        }
+      }
+
+      function customSurveyAvailable(data) {
+        console.log(`
+        pollfish survey is available with revenue: ${data.revenue},
+        survey format playful: ${data.playful},
+        survey_loi: ${data.survey_loi},
+        survey_ir: ${data.survey_ir},
+        survey_class: ${data.survey_class},
+        reward_name: ${data.reward_name},
+        reward_value: ${data.reward_value},
+        remaining_completes: ${data.remaining_completes},
+      `);
+      }
+
+      function customSurveyNotAvailable() {
+        console.log("survey not available");
+        document
+          .getElementById("clueHandler")
+          .setAttribute("data-restart", "true");
+      }
+    </script>
+
+    <script src="https://storage.googleapis.com/pollfish_production/sdk/webplugin/pollfish.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+.privacy_container {
+  margin: 4rem 1.4rem;
+}
+
+.privacy_container p {
+  font-family: Poppins, sans-serif;
+  margin-bottom: 0.8rem;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.privacy_container ul {
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  line-height: 1.5rem;
+}
+
+.privacy-header {
+  font-size: 1.5rem;
+}
+
+.privacy-title {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .privacy_container {
+    margin: 4rem 4rem;
+  }
+
+  .privacy-header {
+    font-size: 1.8rem;
+  }
+
+  .privacy-title {
+    font-size: 1.6rem;
+  }
+  .privacy_container p,
+  .privacy_container ul {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .privacy_container {
+    margin: 4rem 11rem;
+  }
+}

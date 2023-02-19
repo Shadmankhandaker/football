@@ -1,0 +1,41 @@
+.game_section {
+  padding-top: 2.6rem;
+  padding-bottom: 2.6rem;
+}
+
+.help_frnd-btn {
+  margin: 0 auto 0.2rem;
+  color: #7fda56;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  background: black;
+  padding: 6px 0.8rem;
+  border: 1px solid #7fda56;
+  border-radius: 30px;
+}
+
+.help_frnd-btn > * + * {
+  margin-left: 0.6rem;
+}
+
+.help_frnd-btn img {
+  width: 16px;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 764px) {
+  .game_section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .help_frnd-btn {
+    padding: 6px 1rem;
+    border: 2px solid #7fda56;
+  }
+
+  .help-frnd {
+    margin-bottom: 1rem;
+  }
+}

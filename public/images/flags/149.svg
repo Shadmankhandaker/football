@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="42">
+<path style="fill:#264c23; stroke:none;" d="M0 0L0 42L23 42L23 0L0 0z"/>
+<path style="fill:#df3d25; stroke:none;" d="M23 0L23 42L48 42L48 0L23 0z"/>
+<path style="fill:#338b2d; stroke:none;" d="M48 0L48 42L70 42L70 0L48 0z"/>
+<path style="fill:#ed9588; stroke:none;" d="M30 11L30 12L37 11L30 11M38 10L38 11L45 18L43 22L47 21L42 13L43 11L38 10M27 13C21.6274 26.1913 28.2357 30.3511 41 29L38 31L38 32L44 28L32 26L27 28L27 27L30 26L25 21L30 23L31 18L27 21L26 18L30 13L27 13M32 14C32.0012 24.4473 35.554 24.676 45 27L47 24L47 23L38 22L40 22C37.9172 18.9572 36.6257 18.1595 33 19L35 17L35 14L32 14z"/>
+<path style="fill:#efc2bc; stroke:none;" d="M35 14L33 19L38 20L39 20L39 16L37 14L35 14z"/>
+<path style="fill:#ed9588; stroke:none;" d="M38 14L37 16L39 16L38 14z"/>
+<path style="fill:#df3d25; stroke:none;" d="M37 16L38 17L37 16z"/>
+<path style="fill:#ed9588; stroke:none;" d="M39 17L40 18L39 17z"/>
+<path style="fill:#efc2bc; stroke:none;" d="M26 18L27 21L28 21L28 18L26 18z"/>
+<path style="fill:#ed9588; stroke:none;" d="M41 18L40 21L41 21L41 18z"/>
+<path style="fill:#efc2bc; stroke:none;" d="M44 18L41 19L42 22L44 18M30 19L29 22L30 19z"/>
+<path style="fill:#df3d25; stroke:none;" d="M34 19L34 20L38 22L34 19z"/>
+<path style="fill:#efc2bc; stroke:none;" d="M25 21L28 25L29 25L25 21M33 21L38 24L33 21z"/>
+<path style="fill:#ed9588; stroke:none;" d="M36 21L37 22L36 21z"/>
+<path style="fill:#efc2bc; stroke:none;" d="M38 22L39 23L38 22z"/>
+<path style="fill:#ed9588; stroke:none;" d="M41 22L42 23L41 22z"/>
+<path style="fill:#efc2bc; stroke:none;" d="M31 25L31 26L45 28C40.8517 24.8078 36.0824 24.0525 31 25M45 24L46 25L45 24M27 27L27 28L31 27L27 27z"/>
+<path style="fill:#df3d25; stroke:none;" d="M32 28L35 27L32 28M36 26L36 27L40 28L36 26M35 28L36 29L35 28z"/>
+<path style="fill:#efc2bc; stroke:none;" d="M30 29C32.5554 32.3961 38.3825 32.3263 41 29L30 29z"/>
+<path style="fill:#ed9588; stroke:none;" d="M31 31L32 32L31 31M33 31L33 32L37 32L33 31z"/>
+</svg>
